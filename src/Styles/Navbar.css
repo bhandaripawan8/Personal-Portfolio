@@ -1,0 +1,35 @@
+
+
+.navbar-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #020202;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navbar .logo-container h3{
+    width: auto;
+    padding-top: 20px;
+    justify-content: center;
+    color: white;
+}
+
+.navbar .links-container{
+    align-items: center;
+}
+
+.links-container .navLinks{
+    display: flex;
+    margin-top: 22px;
+}
+
+
+.navLinks li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+
+}
